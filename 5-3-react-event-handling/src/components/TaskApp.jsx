@@ -4,6 +4,7 @@ import TaskList from "./TaskList";
 export default function TaskApp() {
   
   const handleSubmit = () => {
+    if (text.trim() === "") return;
    
   };
 
